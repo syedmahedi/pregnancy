@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* ########## */
+.user-logo {
+  background-color: #504d51;
+  border: none;
+  border-radius: 70%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-list {
+  height: 70px;
+  justify-content: flex;
+  display: flex;
+  align-items: center;
+}
+.navbar-list li {
+  list-style-type: none;
+}
+.navbar-list li a {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-list li a:hover {
+  background-color: rgb(47, 46, 46);
+  transform: scale(1.1);
+}
+
+
+
+
+

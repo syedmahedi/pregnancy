@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+/* @font-face {
+    font-family: "CustomFont";
+    src: url("../fonts/RolexLight.woff2");
+} */
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+.ma-1 {
+    margin-left: 14rem;
+  }
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.social-media-icons-white a{
+    color: black;
+    font-size: 1.6rem;
+}
+
+.cover {
+    background-color:rgb(250, 241, 245);
+    width: 80%;
+    height: 50%;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(209, 208, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alt-login {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div {
+    width: 47.5%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 80%;
+    height: 45px;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.75em;
+}
+
+input:focus {
+    outline-color: rgb(255, 182, 211);
+}
+
+.login-btn {
+    width: 30%;
+    height: 2.2em;
+    background-color: rgb(255, 182, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.09);}
+
+.text {
+    position: relative;
+    bottom: 0.5%;
+}
+
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 5em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-image: url('../icons/google.png'); */
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+    .page {
+        font-size: 1em;
+    }
+
+    .cover {
+        width: 60%;
+        height: 90%;
+    }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+    .page {
+        font-size: 1.09em;
+    }
+
+    .cover {
+        width: 35%;
+        height: 80%;
+    }
+}
