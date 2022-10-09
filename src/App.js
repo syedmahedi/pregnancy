@@ -22,15 +22,15 @@ function App() {
   return (
     <>
 
-    <Router>
+    <Router basename='/pregnancy'>
 
 
     <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
     
   <div className="container-fluid">
-    <a className="navbar-brand" href='/'>
+    <NavLink to='/' className="navbar-brand">
       <img src="https://scontent.fdac27-2.fna.fbcdn.net/v/t1.6435-9/179336917_1428523640831204_932934920287558860_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=MT91nQIZvDEAX8Zv2PB&_nc_ht=scontent.fdac27-2.fna&oh=00_AT_RWn1iMnwOB0NpajtA8XmonPhqt4UgCFA9wNNnuvEPuw&oe=6363B6A4" style={{width: 30, height: 30, borderRadius: 30/2,marginRight: '10px',}}  class="d-inline-block align-top" alt=""/>
-      <b>প্যারেন্টিং পার্টনার</b></a>
+      <b>প্যারেন্টিং পার্টনার</b></NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

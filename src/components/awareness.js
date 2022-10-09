@@ -4,22 +4,15 @@ import { Card } from 'react-bootstrap';
 
 const Awareness = () => {
 
-  const cardStyle = {
-    display: "block",
-    transitionDuration: "0.3s",
-    height: "25vw",
-    width:'18rem'
-
-  };
 
   return (
       <> 
-    <div className='mt-4'>
+    <div className='mt-4 flex-wrap'>
         <h3 style={{textAlign: "center"}}>গর্ভাবস্থায় পুষ্টি</h3><hr></hr>
         <div className="container ">
-      <div className="field-body row d-flex justify-content-center">
-        <div className='col-lg-3 mt-4'>
-      <Card style={cardStyle}>
+      <div className="row gy-3 d-flex justify-content-center">
+        <div className='col-sm-6 col-md-4 col-lg-3 mt-4'>
+      <Card>
       <Card.Img variant="top" src="https://images.unsplash.com/photo-1559598467-f8b76c8155d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
       <Card.Body>
         <Card.Title>গর্ভাবস্থার জন্য সেরা দুধ</Card.Title>
@@ -32,8 +25,8 @@ const Awareness = () => {
       </Card>
       </div>
 
-      <div className='col-lg-3 mt-4'>
-      <Card style={cardStyle}>
+      <div className='col-sm-6 col-md-4 col-lg-3 mt-4'>
+      <Card>
       <Card.Img variant="top" src="https://www.babycenter.com/ims/2015/02/choppedsweetpotato_wide.jpg.pagespeed.ce.WjnvemFFqc.jpg" />
       <Card.Body>
         <Card.Title>গর্ভাবস্থায় ভিটামিন এ</Card.Title>
@@ -46,8 +39,8 @@ const Awareness = () => {
       </Card>
       </div>
 
-      <div className='col-lg-3 mt-4'>
-      <Card style={cardStyle}>
+      <div className='col-sm-6 col-md-4 col-lg-3 mt-4'>
+      <Card>
       <Card.Img variant="top" src="https://images.unsplash.com/photo-1625488921948-5610bcf85ef3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
       <Card.Body>
         <Card.Title>গর্ভাবস্থায় ভিটামিন সি</Card.Title>
@@ -61,8 +54,8 @@ const Awareness = () => {
       </div>
 
 
-      <div className='col-lg-3 mt-4'>
-      <Card style={cardStyle}>
+      <div className='col-sm-6 col-md-4 col-lg-3 mt-4'>
+      <Card>
       <Card.Img variant="top" src="https://images.unsplash.com/photo-1576866209830-589e1bfbaa4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
       <Card.Body>
         <Card.Title>গর্ভাবস্থায় খাবার পরিকল্পনা</Card.Title>
