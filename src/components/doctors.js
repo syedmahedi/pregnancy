@@ -1,32 +1,18 @@
-import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
 import '../App.css';
 
+
 const Doctors = () => {
 
-  const div1 = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'right',
-    float:'right',
-    width:'50%',
-  };
-
-  const div2 = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'right',
-    float:'left',
-    // width: '49.99%'
-  };
 
   return (
     <> 
-        <div className="mt-4">
-          
+
+        <div className="mt-4">   
         <h3 style={{textAlign: "center"}}>বাংলাদেশের সেরা শিশু বিশেষজ্ঞের তালিকা</h3><hr></hr>
-        <div style={div2}>
-        <ul className='mx-5'>
+        <div className='section'>
+        <div className='text'>
+        <ul>
         <h4><b><a href='http://www.whereindoctor.com/2018/01/professor-dr-golam-muin-uddin.html' style={{textDecoration: 'none'}}>Prof. Dr. Golam Muin Uddin</a></b></h4>
         <li>
         MBBS, FCPS (Pediatrics), FRCP (Edinburgh, UK)
@@ -48,11 +34,14 @@ const Doctors = () => {
         </li>
         </ul>
         </div>
+          <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx4TA6ltBdiSp-fHEKU_oPyZphPKWFJQpj4DXoIMA5lKIUD8HwL8NMTrdUYOMsfT7WSuI8c5mm7Dh1ZfBUezoLh-KqOGCPYiyLja0vir2oiR_80t29QjofAeA05lCongUvNWL_hF042jyiWGIpKA_wnhwteVbCMvE-7ro1_Jc9RomgknOtNaZ2FBj6/w640-h320/Prof.%20Dr.%20Golam%20Muin%20Uddin.jpg' alt=''></img>
+        </div>
 
 
-        <div style={div1}>
-        <ul className='mx-5'>
-        <h4><b><a href='https://hospitaldoctorlist.com/prof-dr-abdul-matin-child-specialist-in-dhaka/' style={{textDecoration: 'none'}}>Prof. Dr. Abdul Matin</a></b></h4>
+        <div className='section'>
+        <div className='text'>
+        <ul>
+        <h4><b><a href='https://hospitaldoctorlist.com/prof-dr-abdul-matin-child-specialist-in-dhaka/' style={{textDecoration: 'none'}}>Prof. Dr. Abdul Matin</a></b></h4>        
         <li>
         MBBS, BCS (Health), MD (Child)
         </li>
@@ -71,14 +60,16 @@ const Doctors = () => {
         <li>
         Phone: 01783661144, 01755597798
         </li>
-        </ul>
+        </ul>        
         </div>
-        <br></br>
-        <br></br>
+        
+          <img src='https://th.bing.com/th/id/OIP.gDaqT6S8s7T3iUsKWqpXZwHaE8?pid=ImgDet&rs=1' alt=''></img>
+        
+        </div>
 
 
-        <div style={div2}>
-        <ul className='mx-5'>
+        <div className='section' >
+        <ul>
         <h4><b><a href='http://www.whereindoctor.com/2018/01/professor-dr-golam-muin-uddin.html' style={{textDecoration: 'none'}}>Prof. Dr. Golam Muin Uddin</a></b></h4>
         <li>
         MBBS, FCPS (Pediatrics), FRCP (Edinburgh, UK)
@@ -100,13 +91,12 @@ const Doctors = () => {
         </li>
         </ul>
         </div>
-        <br></br>
-        <br></br>
+ 
 
 
 
-        <div style={div1}>
-        <ul className='mx-5'>
+        <div className='section' >
+        <ul >
         <h4><b><a href='https://hospitaldoctorlist.com/prof-dr-abdul-matin-child-specialist-in-dhaka/' style={{textDecoration: 'none'}}>Prof. Dr. Abdul Matin</a></b></h4>
         <li>
         MBBS, BCS (Health), MD (Child)
@@ -133,6 +123,7 @@ const Doctors = () => {
         
 
         </div>
+
       
       
     </>  

@@ -58,7 +58,7 @@ export default function carousel() {
     <div>
       <h4 style={{textAlign: "center"}}>সপ্তাহে - সপ্তাহে - আপনার - গর্ভাবস্থা</h4>
 
-    <ul className='navbar-list mt-4 mb-5'>
+    <ul className='navbar-list mt-4 mb-5 overflow-scrolling'>
     <li className='mx-2'><NavLink to='/' className='user-logo' style={{textDecoration: 'none',color:'white'}}>২য় সপ্তাহ</NavLink></li>
     <li className='mx-2'><NavLink to='/' className='user-logo' style={{textDecoration: 'none',color:'white'}}>৩য় সপ্তাহ</NavLink></li>
     <li className='mx-2'><NavLink to='/' className='user-logo' style={{textDecoration: 'none',color:'white'}}>৪র্থ সপ্তাহ</NavLink></li>
